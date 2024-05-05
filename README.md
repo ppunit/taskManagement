@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Task Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
+## Instructions to start the app
+
+In the project directory, you can run:
+
+### `npm install`
+
+To install all the depencdencies required for the app
 
 ### `npm start`
 
@@ -14,57 +18,59 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Landing page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Landing Page](landingpage.png)
+Here in landing page as you can see there are filters and a table list
+Filters:
+Sort by : It has three options Due Date , priority, completed status to sort the list with these options
+Sort order: It has two options Ascending or descending
+Filter by:  It has 3 options as All, Completed, Incompleted , it filters accordingly
+Search : It search using the task title 
 
-### `npm run build`
+## Task List
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is the task list in landing page, where you can view all of your tasks.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Adding a Task
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To add a new task, click on the "Add Task" button in the bottom left corner of the page.
 
-### `npm run eject`
+### Completing a Task
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To mark a task as complete, click on the checkbox next to the task.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Deleting a Task
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To delete a task, click on the trash can icon next to the task.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Editing  a Task
 
-## Learn More
+To edit a task, click on the edit icon next to the task.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Add task page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Add task](Addtask.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here are its fields description
+title: The title of the task.
+description: The description of the task.
+dueDate: The due date of the task.
+priority: The priority of the task.
+Add task button : Saves the data 
 
-### Analyzing the Bundle Size
+### Update task page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Update task](updateTask.png)
 
-### Making a Progressive Web App
+Here are its fields description
+title: The title of the task.
+description: The description of the task.
+dueDate: The due date of the task.
+priority: The priority of the task.
+Update task button : Saves the data 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+All the fields will be prefilled 
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
