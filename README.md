@@ -22,13 +22,20 @@ You may also see any lint errors in the console.
 
 ![Landing Page](landingpage.png)
 Here in landing page as you can see there are filters and a table list
-Filters:
-Sort by : It has three options Due Date , priority, completed status to sort the list with these options
-Sort order: It has two options Ascending or descending
-Filter by:  It has 3 options as All, Completed, Incompleted , it filters accordingly
-Search : It search using the task title 
+## Filters:
+### Sort by :
+ It has three options Due Date , priority, completed status to sort the list with these options
 
-## Task List
+### Sort order: 
+It has two options Ascending or descending
+
+### Filter by:  
+It has 3 options as All, Completed, Incompleted , it filters accordingly
+
+### Search :
+ It search using the task title 
+
+# Task List
 
 This is the task list in landing page, where you can view all of your tasks.
 
@@ -48,29 +55,46 @@ To delete a task, click on the trash can icon next to the task.
 
 To edit a task, click on the edit icon next to the task.
 
-### Add task page
+## Add task page
 
 ![Add task](Addtask.png)
 
 
 Here are its fields description
-title: The title of the task.
-description: The description of the task.
-dueDate: The due date of the task.
-priority: The priority of the task.
-Add task button : Saves the data 
+### title: 
+The title of the task.
 
-### Update task page
+### description:
+The description of the task.
+### dueDate: 
+The due date of the task.
+
+### priority: 
+The priority of the task.
+
+### Add task button : 
+Saves the data 
+
+## Update task page
 
 ![Update task](updateTask.png)
 
 Here are its fields description
-title: The title of the task.
-description: The description of the task.
-dueDate: The due date of the task.
-priority: The priority of the task.
-Update task button : Saves the data 
+### title: 
+The title of the task.
 
-All the fields will be prefilled 
+### description: 
+The description of the task.
+
+### dueDate: 
+The due date of the task.
+
+### priority: 
+The priority of the task.
+
+### Update task button : 
+Saves the data 
+
+#### All the fields will be prefilled 
 
 
